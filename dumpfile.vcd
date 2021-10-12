@@ -1,5 +1,5 @@
 $date
-	Mon Oct 11 22:04:29 2021
+	Tue Oct 12 16:25:57 2021
 $end
 $version
 	QuestaSim Version 2019.2
@@ -25,3 +25,9 @@ $scope begin std $end
 $upscope $end
 
 $scope begin test_sv_unit $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+$end
