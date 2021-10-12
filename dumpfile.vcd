@@ -1,5 +1,5 @@
 $date
-	Mon Oct 11 20:21:14 2021
+	Mon Oct 11 22:04:29 2021
 $end
 $version
 	QuestaSim Version 2019.2
@@ -9,6 +9,7 @@ $timescale
 $end
 
 $scope module tbench_top $end
+$var event 1 ! reset_trigger $end
 
 $scope module testbench $end
 $upscope $end

@@ -11,15 +11,14 @@ cModel Technology
 Z0 d/home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4
 T_opt
 !s11d test_sv_unit /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 1 intf 1 /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 
-Z1 !s110 1634004495
-VkmJZEDd9BQHFZPlFF[h6k2
+Z1 !s110 1634011467
+V7XS]`k@mQ6oiMPN1fGn>^2
 04 10 4 work tbench_top fast 0
-=1-000ae431a4f1-6164ee0f-5d7e9-1206f9
+=1-000ae431a4f1-6165094b-59420-12218e
 Z2 o-quiet -auto_acc_if_foreign -work work
 Z3 tCvgOpt 0
 n@_opt
 Z4 OE;O;2019.2;69
-R0
 T_opt1
 !s110 1634005370
 VSMb:@9Lk?_=9?DffEQBg50
@@ -29,6 +28,7 @@ R2
 R3
 n@_opt1
 R4
+R0
 vdut_top
 Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
 R1
@@ -47,9 +47,9 @@ Z7 OE;L;2019.2;69
 r1
 !s85 0
 31
-Z8 !s108 1634004495.000000
-Z9 !s107 verification/phase_3_base_classes/environment.sv|verification/phase_3_base_classes/test.sv|verification/phase_3_base_classes/interface.sv|verification/phase_3_base_classes/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
-Z10 !s90 -f|script/phase_3_base_classes/run.f|
+Z8 !s108 1634011467.000000
+Z9 !s107 verification/phase_4_generator/transaction.sv|verification/phase_4_generator/generator.sv|verification/phase_4_generator/environment.sv|verification/phase_4_generator/test.sv|verification/phase_4_generator/interface.sv|verification/phase_4_generator/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
+Z10 !s90 -f|script/phase_4_generator/run.f|
 !i113 0
 Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
@@ -83,13 +83,13 @@ R1
 !i10b 1
 !s100 IcQI32B9Fg;h@<Wh?VA4J1
 !s11b oB3K5jgAmg:1b:Xaofj2J3
-Io?OL1[`<>liXPW0mz9K]C2
+I3S3ILk9ccPaT3:96^`O842
 R6
 S1
 R0
-Z16 w1634004431
-8verification/phase_3_base_classes/interface.sv
-Fverification/phase_3_base_classes/interface.sv
+w1634005494
+8verification/phase_4_generator/interface.sv
+Fverification/phase_4_generator/interface.sv
 L0 3
 R7
 r1
@@ -131,13 +131,13 @@ R1
 !i10b 1
 !s100 4UU3_UiNNDP=oPcD1UEWY1
 !s11b 9<oe:BenOkLO?Hb1:m54>0
-I]H^ZTgONG8Wc_CoMG3Jf=3
+I0^UXk9^F1fkFCc`^0XzBd2
 R6
 S1
 R0
-R16
-8verification/phase_3_base_classes/tbench_top.sv
-Fverification/phase_3_base_classes/tbench_top.sv
+w1634009035
+8verification/phase_4_generator/tbench_top.sv
+Fverification/phase_4_generator/tbench_top.sv
 L0 3
 R7
 r1
@@ -151,19 +151,19 @@ R11
 R3
 4test
 R5
-DXx4 work 12 test_sv_unit 0 22 SPWi21Oh_A3AS4mO9:KjJ1
+DXx4 work 12 test_sv_unit 0 22 ?jCb4T911hd;hfT?L1F_I0
 R6
 r1
 !s85 0
 !i10b 1
-!s100 <:MKLS0<V=0XgHUaIfa<R1
-IPH==VCOgf7:;L:k;0IWTV2
+!s100 eL?7<SFD:ke0zFin?0U?]1
+IzVl<EJcoMNGnX=BiVD`UT2
 !s105 test_sv_unit
 S1
 R0
-R16
-Z17 8verification/phase_3_base_classes/test.sv
-Z18 Fverification/phase_3_base_classes/test.sv
+w1634009029
+Z16 8verification/phase_4_generator/test.sv
+Z17 Fverification/phase_4_generator/test.sv
 L0 4
 R7
 31
@@ -176,19 +176,21 @@ R3
 Xtest_sv_unit
 !s115 intf
 R5
-VSPWi21Oh_A3AS4mO9:KjJ1
+V?jCb4T911hd;hfT?L1F_I0
 r1
 !s85 0
 !i10b 1
-!s100 ZZ=7L=RmXzTcgf6b3Yf_G1
-ISPWi21Oh_A3AS4mO9:KjJ1
+!s100 BOgkU<_0V?f`IB:cUC9i_3
+I?jCb4T911hd;hfT?L1F_I0
 !i103 1
 S1
 R0
+w1634011414
 R16
 R17
-R18
-Fverification/phase_3_base_classes/environment.sv
+Fverification/phase_4_generator/environment.sv
+Fverification/phase_4_generator/generator.sv
+Fverification/phase_4_generator/transaction.sv
 L0 3
 R7
 31
@@ -211,14 +213,14 @@ IgcM@4[@G4E`UhE=DcbCdF1
 S1
 R0
 w1634005220
-Z19 8verification/phase_3_base_classes/test_transaction_class.sv
-Z20 Fverification/phase_3_base_classes/test_transaction_class.sv
+Z18 8verification/phase_3_base_classes/test_transaction_class.sv
+Z19 Fverification/phase_3_base_classes/test_transaction_class.sv
 L0 4
 R7
 31
-Z21 !s108 1634005369.000000
-Z22 !s107 verification/phase_3_base_classes/transaction.sv|verification/phase_3_base_classes/test_transaction_class.sv|
-R10
+Z20 !s108 1634005369.000000
+Z21 !s107 verification/phase_3_base_classes/transaction.sv|verification/phase_3_base_classes/test_transaction_class.sv|
+Z22 !s90 -f|script/phase_3_base_classes/run.f|
 !i113 0
 R11
 R3
@@ -234,15 +236,15 @@ I8;IB?[4Q<RaSEPRKg:Nld2
 S1
 R0
 w1634005316
+R18
 R19
-R20
 Z23 Fverification/phase_3_base_classes/transaction.sv
 L0 3
 R7
 31
+R20
 R21
 R22
-R10
 !i113 0
 R11
 R3
@@ -265,7 +267,7 @@ R7
 31
 !s108 1634005134.000000
 !s107 verification/phase_3_base_classes/test_transaction_class.sv|verification/phase_3_base_classes/transaction.sv|
-R10
+R22
 !i113 0
 R11
 R3
