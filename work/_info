@@ -11,10 +11,10 @@ cModel Technology
 Z0 d/home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4
 T_opt
 !s11d test_sv_unit /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 1 intf 1 /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 
-Z1 !s110 1634077556
-VRz_`W^oA<9@^Pa0f14BlV3
+Z1 !s110 1634159455
+V7bnK=UKIfRfiTo`2_2a7l2
 04 10 4 work tbench_top fast 0
-=1-000ae431a4f1-61660b74-561ba-5ada1
+=1-000ae431a4f1-61674b5f-28411-2c3f0
 Z2 o-quiet -auto_acc_if_foreign -work work
 Z3 tCvgOpt 0
 n@_opt
@@ -31,7 +31,7 @@ R4
 R0
 vdut_top
 Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-R1
+!s110 1634159454
 !i10b 1
 !s100 7:_hJaR8dJK4`I8bHfj7N0
 !s11b o@Qo75mVUg=l_836n3loT0
@@ -47,9 +47,9 @@ Z7 OE;L;2019.2;69
 r1
 !s85 0
 31
-Z8 !s108 1634077556.000000
-Z9 !s107 verification/phase_5_driver/driver.sv|verification/phase_5_driver/transaction.sv|verification/phase_5_driver/generator.sv|verification/phase_5_driver/environment.sv|verification/phase_5_driver/test.sv|verification/phase_5_driver/interface.sv|verification/phase_5_driver/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
-Z10 !s90 -f|script/phase_5_driver/run.f|
+Z8 !s108 1634159454.000000
+Z9 !s107 verification/phase_6_monitor/monitor.sv|verification/phase_6_monitor/driver.sv|verification/phase_6_monitor/transaction.sv|verification/phase_6_monitor/generator.sv|verification/phase_6_monitor/environment.sv|verification/phase_6_monitor/test.sv|verification/phase_6_monitor/interface.sv|verification/phase_6_monitor/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
+Z10 !s90 -f|script/phase_6_monitor/run.f|
 !i113 0
 Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
@@ -81,15 +81,15 @@ Yintf
 R5
 R1
 !i10b 1
-!s100 OTz4cZP8M69=JaYo9mDkS0
-!s11b Tk2aNTCj^]I>fYo9gIFg71
-IOb9YVmILR`QTSk7oRoUA]1
+!s100 `kh4Oz7Wh:d;F2fYlj0002
+!s11b `@^Ke9fllB?Dn[2RLV53X0
+I5XX]bT9P]EEc9mgERCBYT3
 R6
 S1
 R0
-w1634077282
-8verification/phase_5_driver/interface.sv
-Fverification/phase_5_driver/interface.sv
+w1634155475
+8verification/phase_6_monitor/interface.sv
+Fverification/phase_6_monitor/interface.sv
 L0 3
 R7
 r1
@@ -131,13 +131,13 @@ R1
 !i10b 1
 !s100 PemeEifGV4f=fYVfFgk6B3
 !s11b 3<:58P0iOl4^oYkdAlc6h2
-I=4gHL>45n7ig77<0kAK=b1
+IfhmBNQzQY[lGI`C6[NUlJ0
 R6
 S1
 R0
-w1634072904
-8verification/phase_5_driver/tbench_top.sv
-Fverification/phase_5_driver/tbench_top.sv
+Z16 w1634077640
+8verification/phase_6_monitor/tbench_top.sv
+Fverification/phase_6_monitor/tbench_top.sv
 L0 3
 R7
 r1
@@ -151,19 +151,19 @@ R11
 R3
 4test
 R5
-DXx4 work 12 test_sv_unit 0 22 Ig@oONPWF[352On;fgdf90
+DXx4 work 12 test_sv_unit 0 22 [V?KF9O663G451fh?>E3Q2
 R6
 r1
 !s85 0
 !i10b 1
 !s100 3mJPO3?a@6>gOUIf<mFcQ2
-ImdNTBJz4SDES?aOWMV?`;1
+IG^J821L`8_Z_kdfj>CFYC3
 !s105 test_sv_unit
 S1
 R0
-w1634075267
-Z16 8verification/phase_5_driver/test.sv
-Z17 Fverification/phase_5_driver/test.sv
+R16
+Z17 8verification/phase_6_monitor/test.sv
+Z18 Fverification/phase_6_monitor/test.sv
 L0 4
 R7
 31
@@ -176,22 +176,23 @@ R3
 Xtest_sv_unit
 !s115 intf
 R5
-VIg@oONPWF[352On;fgdf90
+V[V?KF9O663G451fh?>E3Q2
 r1
 !s85 0
 !i10b 1
-!s100 mX>mRk9@l_2CER<I=M?D82
-IIg@oONPWF[352On;fgdf90
+!s100 a:dicGLE`=<<b3D5<P8oo2
+I[V?KF9O663G451fh?>E3Q2
 !i103 1
 S1
 R0
-w1634077480
-R16
+w1634159438
 R17
-Fverification/phase_5_driver/environment.sv
-Fverification/phase_5_driver/generator.sv
-Fverification/phase_5_driver/transaction.sv
-Fverification/phase_5_driver/driver.sv
+R18
+Fverification/phase_6_monitor/environment.sv
+Fverification/phase_6_monitor/generator.sv
+Fverification/phase_6_monitor/transaction.sv
+Fverification/phase_6_monitor/driver.sv
+Fverification/phase_6_monitor/monitor.sv
 L0 3
 R7
 31
@@ -214,14 +215,14 @@ IgcM@4[@G4E`UhE=DcbCdF1
 S1
 R0
 w1634005220
-Z18 8verification/phase_3_base_classes/test_transaction_class.sv
-Z19 Fverification/phase_3_base_classes/test_transaction_class.sv
+Z19 8verification/phase_3_base_classes/test_transaction_class.sv
+Z20 Fverification/phase_3_base_classes/test_transaction_class.sv
 L0 4
 R7
 31
-Z20 !s108 1634005369.000000
-Z21 !s107 verification/phase_3_base_classes/transaction.sv|verification/phase_3_base_classes/test_transaction_class.sv|
-Z22 !s90 -f|script/phase_3_base_classes/run.f|
+Z21 !s108 1634005369.000000
+Z22 !s107 verification/phase_3_base_classes/transaction.sv|verification/phase_3_base_classes/test_transaction_class.sv|
+Z23 !s90 -f|script/phase_3_base_classes/run.f|
 !i113 0
 R11
 R3
@@ -237,15 +238,15 @@ I8;IB?[4Q<RaSEPRKg:Nld2
 S1
 R0
 w1634005316
-R18
 R19
-Z23 Fverification/phase_3_base_classes/transaction.sv
+R20
+Z24 Fverification/phase_3_base_classes/transaction.sv
 L0 3
 R7
 31
-R20
 R21
 R22
+R23
 !i113 0
 R11
 R3
@@ -262,13 +263,13 @@ S1
 R0
 w1634005081
 8verification/phase_3_base_classes/transaction.sv
-R23
+R24
 L0 3
 R7
 31
 !s108 1634005134.000000
 !s107 verification/phase_3_base_classes/test_transaction_class.sv|verification/phase_3_base_classes/transaction.sv|
-R22
+R23
 !i113 0
 R11
 R3
