@@ -10,11 +10,11 @@ z2
 cModel Technology
 Z0 d/home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4
 T_opt
-!s11d test_sv_unit /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 1 intf 1 /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 
-Z1 !s110 1634159455
-V7bnK=UKIfRfiTo`2_2a7l2
+!s11d test_sanity_check_sv_unit /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 1 intf 1 /home/ths943/engr-ece/cme/435_verification/labs/lab2/cme435_ex4/work 
+Z1 !s110 1634347964
+Vb8z1BkQ69[SM>f1`dTE^70
 04 10 4 work tbench_top fast 0
-=1-000ae431a4f1-61674b5f-28411-2c3f0
+=1-000ae431a4f1-616a2bbc-254be-35376
 Z2 o-quiet -auto_acc_if_foreign -work work
 Z3 tCvgOpt 0
 n@_opt
@@ -31,7 +31,7 @@ R4
 R0
 vdut_top
 Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1634159454
+R1
 !i10b 1
 !s100 7:_hJaR8dJK4`I8bHfj7N0
 !s11b o@Qo75mVUg=l_836n3loT0
@@ -39,7 +39,7 @@ ISKkR@OjbTFCfnVRQBdOPS2
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1634001998
+w1634329491
 8dut/dut_top.sv
 Fdut/dut_top.sv
 L0 1
@@ -47,9 +47,9 @@ Z7 OE;L;2019.2;69
 r1
 !s85 0
 31
-Z8 !s108 1634159454.000000
-Z9 !s107 verification/phase_6_monitor/monitor.sv|verification/phase_6_monitor/driver.sv|verification/phase_6_monitor/transaction.sv|verification/phase_6_monitor/generator.sv|verification/phase_6_monitor/environment.sv|verification/phase_6_monitor/test.sv|verification/phase_6_monitor/interface.sv|verification/phase_6_monitor/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
-Z10 !s90 -f|script/phase_6_monitor/run.f|
+Z8 !s108 1634347963.000000
+Z9 !s107 verification/phase_7_scoreboard/scoreboard.sv|verification/phase_7_scoreboard/monitor.sv|verification/phase_7_scoreboard/driver.sv|verification/phase_7_scoreboard/transaction.sv|verification/phase_7_scoreboard/generator.sv|verification/phase_7_scoreboard/environment.sv|verification/phase_7_scoreboard/test_sanity_check.sv|verification/phase_7_scoreboard/interface.sv|verification/phase_7_scoreboard/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
+Z10 !s90 -f|script/phase_7_scoreboard/run_sanity_check.f|
 !i113 0
 Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
@@ -81,15 +81,15 @@ Yintf
 R5
 R1
 !i10b 1
-!s100 `kh4Oz7Wh:d;F2fYlj0002
-!s11b `@^Ke9fllB?Dn[2RLV53X0
-I5XX]bT9P]EEc9mgERCBYT3
+!s100 PZcWkIIEG<I^FP@gZ3n900
+!s11b HNO=;L4;H07HNGMRMEDjl0
+IA^a3UoNSe;KhCSd93L[1K0
 R6
 S1
 R0
-w1634155475
-8verification/phase_6_monitor/interface.sv
-Fverification/phase_6_monitor/interface.sv
+w1634259570
+8verification/phase_7_scoreboard/interface.sv
+Fverification/phase_7_scoreboard/interface.sv
 L0 3
 R7
 r1
@@ -129,15 +129,15 @@ vtbench_top
 R5
 R1
 !i10b 1
-!s100 PemeEifGV4f=fYVfFgk6B3
-!s11b 3<:58P0iOl4^oYkdAlc6h2
-IfhmBNQzQY[lGI`C6[NUlJ0
+!s100 gfobaiR?llFH:lE@dIfIP3
+!s11b @^CE9AiXnjAiM>[ciWMF63
+IOckLNP;j:ghgOWZK<>6Ho3
 R6
 S1
 R0
-Z16 w1634077640
-8verification/phase_6_monitor/tbench_top.sv
-Fverification/phase_6_monitor/tbench_top.sv
+w1634258277
+8verification/phase_7_scoreboard/tbench_top.sv
+Fverification/phase_7_scoreboard/tbench_top.sv
 L0 3
 R7
 r1
@@ -151,19 +151,19 @@ R11
 R3
 4test
 R5
-DXx4 work 12 test_sv_unit 0 22 [V?KF9O663G451fh?>E3Q2
+DXx4 work 25 test_sanity_check_sv_unit 0 22 7d=?:dBf_n9;CRD^IN^501
 R6
 r1
 !s85 0
 !i10b 1
-!s100 3mJPO3?a@6>gOUIf<mFcQ2
-IG^J821L`8_Z_kdfj>CFYC3
-!s105 test_sv_unit
+!s100 4C04>`e@FHFi47<MRYB781
+I9AhC<71:<T;6YYiREh=872
+!s105 test_sanity_check_sv_unit
 S1
 R0
-R16
-Z17 8verification/phase_6_monitor/test.sv
-Z18 Fverification/phase_6_monitor/test.sv
+Z16 w1634347701
+Z17 8verification/phase_7_scoreboard/test_sanity_check.sv
+Z18 Fverification/phase_7_scoreboard/test_sanity_check.sv
 L0 4
 R7
 31
@@ -173,32 +173,123 @@ R10
 !i113 0
 R11
 R3
-Xtest_sv_unit
-!s115 intf
+Xtest_overlapping_addresses_sv_unit
+Z19 !s115 intf
 R5
-V[V?KF9O663G451fh?>E3Q2
+Vo4Q?BUzQJP?Bg<XZecS^B1
 r1
 !s85 0
 !i10b 1
-!s100 a:dicGLE`=<<b3D5<P8oo2
-I[V?KF9O663G451fh?>E3Q2
+!s100 KMLonJh=e[l^?2][I0K9Y0
+Io4Q?BUzQJP?Bg<XZecS^B1
 !i103 1
 S1
 R0
-w1634159438
+w1634347692
+8verification/phase_7_scoreboard/test_overlapping_addresses.sv
+Fverification/phase_7_scoreboard/test_overlapping_addresses.sv
+Z20 Fverification/phase_7_scoreboard/environment.sv
+Z21 Fverification/phase_7_scoreboard/generator.sv
+Z22 Fverification/phase_7_scoreboard/transaction.sv
+Z23 Fverification/phase_7_scoreboard/driver.sv
+Z24 Fverification/phase_7_scoreboard/monitor.sv
+Z25 Fverification/phase_7_scoreboard/scoreboard.sv
+L0 3
+R7
+31
+!s108 1634347694.000000
+!s107 verification/phase_7_scoreboard/scoreboard.sv|verification/phase_7_scoreboard/monitor.sv|verification/phase_7_scoreboard/driver.sv|verification/phase_7_scoreboard/transaction.sv|verification/phase_7_scoreboard/generator.sv|verification/phase_7_scoreboard/environment.sv|verification/phase_7_scoreboard/test_overlapping_addresses.sv|verification/phase_7_scoreboard/interface.sv|verification/phase_7_scoreboard/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
+!s90 -f|script/phase_7_scoreboard/run_overlapping_addresses.f|
+!i113 0
+R11
+R3
+Xtest_port_assignment_sv_unit
+R19
+R5
+Vo]B6]azaZPj:3:R9QdHIT3
+r1
+!s85 0
+!i10b 1
+!s100 Jd<1Rg9_<`S_XHFzai2c02
+Io]B6]azaZPj:3:R9QdHIT3
+!i103 1
+S1
+R0
+w1634347697
+8verification/phase_7_scoreboard/test_port_assignment.sv
+Fverification/phase_7_scoreboard/test_port_assignment.sv
+R20
+R21
+R22
+R23
+R24
+R25
+L0 3
+R7
+31
+!s108 1634347769.000000
+!s107 verification/phase_7_scoreboard/scoreboard.sv|verification/phase_7_scoreboard/monitor.sv|verification/phase_7_scoreboard/driver.sv|verification/phase_7_scoreboard/transaction.sv|verification/phase_7_scoreboard/generator.sv|verification/phase_7_scoreboard/environment.sv|verification/phase_7_scoreboard/test_port_assignment.sv|verification/phase_7_scoreboard/interface.sv|verification/phase_7_scoreboard/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
+!s90 -f|script/phase_7_scoreboard/run_port_assignment.f|
+!i113 0
+R11
+R3
+Xtest_sanity_check_sv_unit
+R19
+R5
+V7d=?:dBf_n9;CRD^IN^501
+r1
+!s85 0
+!i10b 1
+!s100 hm31SK1e5Bjg4@:29:OUL2
+I7d=?:dBf_n9;CRD^IN^501
+!i103 1
+S1
+R0
+R16
 R17
 R18
-Fverification/phase_6_monitor/environment.sv
-Fverification/phase_6_monitor/generator.sv
-Fverification/phase_6_monitor/transaction.sv
-Fverification/phase_6_monitor/driver.sv
-Fverification/phase_6_monitor/monitor.sv
+R20
+R21
+R22
+R23
+R24
+R25
 L0 3
 R7
 31
 R8
 R9
 R10
+!i113 0
+R11
+R3
+Xtest_sv_unit
+R19
+R5
+VLn@Z9`D6i0FcEH]KE:iaS0
+r1
+!s85 0
+!i10b 1
+!s100 XMfEcl669lEe=lc@5RA[62
+ILn@Z9`D6i0FcEH]KE:iaS0
+!i103 1
+S1
+R0
+w1634343791
+8verification/phase_7_scoreboard/test.sv
+Fverification/phase_7_scoreboard/test.sv
+R20
+R21
+R22
+R23
+R24
+R25
+L0 3
+R7
+31
+!s108 1634343785.000000
+!s107 verification/phase_7_scoreboard/scoreboard.sv|verification/phase_7_scoreboard/monitor.sv|verification/phase_7_scoreboard/driver.sv|verification/phase_7_scoreboard/transaction.sv|verification/phase_7_scoreboard/generator.sv|verification/phase_7_scoreboard/environment.sv|verification/phase_7_scoreboard/test.sv|verification/phase_7_scoreboard/interface.sv|verification/phase_7_scoreboard/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
+!s90 -f|script/phase_7_scoreboard/run.f|
 !i113 0
 R11
 R3
@@ -215,14 +306,14 @@ IgcM@4[@G4E`UhE=DcbCdF1
 S1
 R0
 w1634005220
-Z19 8verification/phase_3_base_classes/test_transaction_class.sv
-Z20 Fverification/phase_3_base_classes/test_transaction_class.sv
+Z26 8verification/phase_3_base_classes/test_transaction_class.sv
+Z27 Fverification/phase_3_base_classes/test_transaction_class.sv
 L0 4
 R7
 31
-Z21 !s108 1634005369.000000
-Z22 !s107 verification/phase_3_base_classes/transaction.sv|verification/phase_3_base_classes/test_transaction_class.sv|
-Z23 !s90 -f|script/phase_3_base_classes/run.f|
+Z28 !s108 1634005369.000000
+Z29 !s107 verification/phase_3_base_classes/transaction.sv|verification/phase_3_base_classes/test_transaction_class.sv|
+Z30 !s90 -f|script/phase_3_base_classes/run.f|
 !i113 0
 R11
 R3
@@ -238,15 +329,15 @@ I8;IB?[4Q<RaSEPRKg:Nld2
 S1
 R0
 w1634005316
-R19
-R20
-Z24 Fverification/phase_3_base_classes/transaction.sv
+R26
+R27
+Z31 Fverification/phase_3_base_classes/transaction.sv
 L0 3
 R7
 31
-R21
-R22
-R23
+R28
+R29
+R30
 !i113 0
 R11
 R3
@@ -263,13 +354,13 @@ S1
 R0
 w1634005081
 8verification/phase_3_base_classes/transaction.sv
-R24
+R31
 L0 3
 R7
 31
 !s108 1634005134.000000
 !s107 verification/phase_3_base_classes/test_transaction_class.sv|verification/phase_3_base_classes/transaction.sv|
-R23
+R30
 !i113 0
 R11
 R3
